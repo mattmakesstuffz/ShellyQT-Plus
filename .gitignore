@@ -1,0 +1,8 @@
+build/
+checkpoints/
+weights/
+data/
+*.pt
+*.bin
+__pycache__/
+.venv/

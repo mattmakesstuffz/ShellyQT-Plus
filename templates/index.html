@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShellyQT+</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main class="app">
+    <header>
+        <div class="avatar">S</div>
+        <div>
+            <h1>ShellyQT+</h1>
+            <p>Local AI · 25M parameters</p>
+        </div>
+        <span class="status">● Online</span>
+    </header>
+
+    <section id="messages" aria-live="polite">
+        <div class="message shelly">Hi! I'm ShellyQT+. What's up? :)</div>
+    </section>
+
+    <form id="chat-form">
+        <input id="input" autocomplete="off" maxlength="1000"
+               placeholder="Message Shelly..." required>
+        <button id="send" type="submit">Send</button>
+    </form>
+    <footer>Running locally on your computer</footer>
+</main>
+<script src="/static/chat.js"></script>
+</body>
+</html>
